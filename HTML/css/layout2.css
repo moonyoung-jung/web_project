@@ -1,0 +1,58 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+}
+
+.main-title {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content {
+    color: white;
+    text-align: center;
+}
+
+.buy-button {
+    color: white;
+    background: black;
+    border: none;
+    padding: 18px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+}
+
+.shoes-introduce {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    background: #eee;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}

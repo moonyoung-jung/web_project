@@ -1,0 +1,46 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.cart-background {
+    width: 100%;
+    background: #c2d3de;
+    padding: 30px;
+    display: block;
+    margin: auto;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+.cart-table td:nth-child(2) {
+    width: 400px;
+    text-align: left;
+}
+
+.cart-table td {
+    padding: 20px;
+    border-bottom: 1px solid #c2d3de;
+    text-align: center;
+}
+
+.pay-button {
+    background: cornflowerblue;
+    color: white;
+    display: block;
+    margin-left: auto;
+    border: 0px;
+    border-radius: 5px;
+    padding: 25px;
+
+}

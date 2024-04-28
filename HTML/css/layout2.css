@@ -1,9 +1,15 @@
+@font-face {
+    font-family: '경기천년';
+    src: url(../경기서체웹폰트/경기서체웹폰트/woff/Title_Medium.woff);
+}
+
 div, input, textarea {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
+    font-family: '경기천년';
 }
 
 .main-background {
@@ -100,6 +106,7 @@ body {
     color: white;
     border: none;
     font-size: 15px;
+    font-family: '경기천년';
     border-radius: 5px;
     display: block;
     margin-left: auto;

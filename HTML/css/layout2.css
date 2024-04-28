@@ -1,4 +1,4 @@
-div {
+div, input, textarea {
     box-sizing: border-box;
 }
 
@@ -55,4 +55,53 @@ body {
     text-align: center;
     position: relative;
     top: -40px;
+}
+
+.contact-background {
+    background-color: gray;
+    padding: 30px;
+}
+
+.main-contact {
+    background-color: white;
+    padding: 70px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-long {
+    height: 200px;
+}
+
+.submit-button {
+    padding: 10px;
+    background: orange;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    float: right;
 }
